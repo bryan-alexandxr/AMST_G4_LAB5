@@ -1,5 +1,4 @@
 import 'dart:async';
-
 import 'package:flutter/material.dart';
 import 'package:g4amst/constants/colors.dart';
 import 'package:g4amst/utils/util.dart';
@@ -44,7 +43,7 @@ class _SplashView extends State<SplashView> {
               height: 16,
             ),
             const Text(
-              "AMST LABORATORIO 05!",
+              "Venta de Videojuegos   Steam",
               style: TextStyle(
                   fontSize: 32,
                   color: AppColors.text_dark,

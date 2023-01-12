@@ -22,7 +22,7 @@ class _HomeView extends State<HomeView> {
       bottomNavigationBar: _bottomBar(),
       body: PageView(
         controller: _pageController,
-        children: [Explore(),ForYouView(),Settings()],
+        children: [ForYouView(),Explore(),Settings()],
         onPageChanged: (int index) {
           setState(() {
             _currentPage = index;
@@ -41,8 +41,7 @@ class _HomeView extends State<HomeView> {
         Icon(Icons.auto_awesome_mosaic_rounded, size: 30, color:
         AppColors.text_dark,),
         Icon(Icons.home, size: 30, color: AppColors.text_dark,),
-        Icon(Icons.settings, size: 30, color:
-        AppColors.text_dark,),
+        Icon(Icons.settings, size: 30, color: AppColors.text_dark,),
       ],
       onTap: (int index) {
         setState(() {

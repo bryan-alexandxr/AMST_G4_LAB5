@@ -16,10 +16,10 @@ class AppColors {
     },
   );
 //static const PrimaryColor = Color(0xFF0C4B8D);
-  static const primaryColor = Color(0xFF162447);
-  static const Color yellow = Color(0xFFEEC415);
-  static const Color green = Color(0xFF61BF33);
-  static const Color orange = Color(0xFFE96B1A);
+  static const primaryColor = Color(0xFFA491D3);
+  static const Color yellow = Color(0xFFA491D3);
+  static const Color green = Color(0xFFBCD8B7);
+  static const Color orange = Color(0xFFFCB07E);
   static const Color red = Color(0xFFDF1919);
   static const Color background = Colors.white24;
   static const Color text_light = Colors.black87;

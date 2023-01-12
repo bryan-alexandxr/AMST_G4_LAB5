@@ -69,6 +69,7 @@ class ItemCard extends StatelessWidget {
     Key? key,
     required this.product,
   }) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
     return Column(

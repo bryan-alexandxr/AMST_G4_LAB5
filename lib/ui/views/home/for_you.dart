@@ -53,7 +53,7 @@ class _ForYouView extends State<ForYouView> {
         _promo(),
         Padding(
           padding: EdgeInsets.all(10),
-          child: Text("Shirts",
+          child: Text("Top",
               style: TextStyle(
                   color: AppColors.text_light,
                   fontSize: 30,
@@ -62,7 +62,7 @@ class _ForYouView extends State<ForYouView> {
         _shirts(),
         Padding(
           padding: EdgeInsets.all(10),
-          child: Text("Pants",
+          child: Text("Most Played",
               style: TextStyle(
                   color: AppColors.text_light,
                   fontSize: 30,

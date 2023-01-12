@@ -53,7 +53,7 @@ Widget _topSection() {
               backgroundColor: AppColors.primaryColor,
               child: ClipRRect(
                 child: Text(
-                  "us",
+                  "Br",
                   style: TextStyle(
                     color: AppColors.text_dark,
                     fontSize: 36,
@@ -133,9 +133,9 @@ ListView _formItems() {
     hintText: "Ingrese su email",),
   FormItem(text: "Bryan Lopez",hintText: "Nombre",
   label: "Ingrese su nombre",),
-  FormItem(text: "0987654321",label: "Celular", hintText:
+  FormItem(text: "0994438912",label: "Celular", hintText:
   "Ingrese su celular",),
-  FormItem(text: "Tarjeta de credito",label: "Metodo de pago", hintText: "Seleccione su metodo de pago",),
+  FormItem(text: "Paypal",label: "Metodo de pago", hintText: "Seleccione su metodo de pago",),
   ],
   );
 }

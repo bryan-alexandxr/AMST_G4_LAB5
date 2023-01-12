@@ -1,29 +1,16 @@
 import 'package:g4amst/models/cart.dart';
 import 'package:g4amst/models/product.dart';
 import 'package:flutter/material.dart';
-import 'package:g4amst/constants/colors.dart';
+import 'package:photo_view/photo_view.dart';
 class ProductView extends StatelessWidget {
   final Product product;
   ProductView(this.product);
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      backgroundColor: product.color,
-      appBar: AppBar(
-        backgroundColor: product.color,
-        elevation: 0,
-        actions: [
-          IconButton(
-            icon: Icon(
-              Icons.shopping_cart,
-              color: AppColors.text_light,
-            ),
-            onPressed: () => Navigator.of(context)
-                .pushNamed("/cart-view"),//Aún no está creado
-          ),
-        ],
-      ),
-      body: _body(),
+    return Container(
+        child: PhotoView(
+          imageProvider: AssetImage(product.image),
+        )
     );
   }
   Widget _body() {
@@ -32,7 +19,7 @@ class ProductView extends StatelessWidget {
         Expanded(
         flex: 2,
         child: Padding(
-            padding: EdgeInsets.symmetric(horizontal: 20),
+            padding: EdgeInsets.symmetric(horizontal: 25),
             child: Column(
               children: [
                 Text(

@@ -25,7 +25,7 @@ class _LoginBottomSheet extends State<LoginBottomSheet> {
         mainAxisSize: MainAxisSize.min,
         children: <Widget>[
           Text(
-            "Observador",
+            "Iniciar Sesión",
             style: TextStyle(
               fontSize: 22,
               color: AppColors.primaryColor,
